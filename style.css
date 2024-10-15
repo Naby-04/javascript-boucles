@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*------------------- general -------------------*/
+:root {
+  --primary-color: #0f0fff;
+  --secondary-color: #fff;
+  --tercary-color: #b7ff92;
+  /* text-color */
+  --text-white: #fff;
+}
+/* header */
+
+header ul {
+  background: var(--primary-color);
+  padding: 20px 0px;
+}
+header ul li .nav-link {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-white);
+  margin-right: 50px;
+}
+header ul li .nav-link.active,
+header ul li .nav-link:hover {
+  background: #fff !important;
+  color: var(--primary-color) !important;
+  border: none !important;
+}
