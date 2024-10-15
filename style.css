@@ -21,6 +21,7 @@ header ul li .nav-link {
   font-weight: bold;
   color: var(--text-white);
   margin-right: 50px;
+  border: 1px solid #fff !important;
 }
 header ul li .nav-link.active,
 header ul li .nav-link:hover {
